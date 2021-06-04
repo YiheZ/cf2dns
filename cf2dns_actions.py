@@ -20,7 +20,7 @@ KEY = os.environ["KEY"]  #"o1zrmHAF"
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
 DOMAINS = json.loads(os.environ["DOMAINS"])  
-#{"600300.xyz": {"@": ["CM","CU","CT"], "www": ["CM", "CU", "CT"], "br": ["CM","CU","CT"], "ca": ["CM","CU","CT"], "de": ["CM","CU","CT"], "jp": ["CM","CU","CT"], "kr": ["CM","CU","CT"], "ru": ["CM","CU","CT"]}, "4096.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}}
+#{"600300.xyz": {"@": ["CM","CU","CT"], "www": ["CM", "CU", "CT"], "br2": ["CM","CU","CT"], "ca2": ["CM","CU","CT"], "de2": ["CM","CU","CT"], "jp2": ["CM","CU","CT"], "kr2": ["CM","CU","CT"], "ru": ["CM","CU","CT"]}, "4096.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}}
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 SECRETID = os.environ["SECRETID"]    #'AKIDV**********Hfo8CzfjgN'
 SECRETKEY = os.environ["SECRETKEY"]   #'ZrVs*************gqjOp1zVl'
